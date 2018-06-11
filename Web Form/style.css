@@ -1,0 +1,72 @@
+body {
+  background-color: #f0d8ff !important;
+}
+
+form {
+  padding: 40px 60px;
+  text-align: center;
+  background-color: #f7f8f9;
+}
+
+#title {
+  text-align: center;
+  padding-top: 20px;
+}
+
+#name-label {
+  text-align: right;
+}
+
+#email-label {
+  text-align: right;
+}
+
+#number-label {
+  text-align: right;
+}
+
+#description {
+  text-align: center;
+}
+
+
+#role {
+  text-align: right;
+}
+
+#rate {
+  text-align: right;
+}
+
+#like {
+  text-align: right;
+}
+
+#improvements {
+  text-align: right;
+}
+
+#suggestions {
+  padding-bottom: 10px;
+  text-align: right;
+}
+
+#comments {
+  text-align: left;
+}
+
+#button {
+  text-align: center;
+}
+
+.container {
+  padding: 10px 10px;
+}
+
+.form-control {
+  text-align: left;
+}
+
+.form-check {
+  text-align: left;
+}
