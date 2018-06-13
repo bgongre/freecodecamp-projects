@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Saxophone Landing Page</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="/css/master.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+</head>
+
+<body>
+  <header id="header">
+    <nav id="nav-bar" class="navbar fixed-top">
+        <img id="header-img" class="navbar-brand" src="http://hansmartini.withtheworks.net/sax.htm" width="40" height="40" alt="saxlogo">
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link active" href="#features">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#how-it-works">How It Works</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#pricing">Pricing</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div class="container">
+    <div class="intro">
+      <h4>Handcrafted, home-made masterpieces</h4>
+      <form id="form" class="email-form" action="https://www.freecodecamp.com/email-submit" method="post">
+        <input id="email" type="email" name="email" placeholder="Enter your email address"><br>
+        <div class="intro-button">
+          <input id="submit" class="btn btn-primary" type="Submit" name="submit" value="Get Started"></input>
+        </div>
+      </form>
+    </div>
+    <div id="features">
+      <div class="materials">
+        <div class="row">
+          <div class="col-sm-1">
+            <i class="fas fa-fire fa-3x" data-fa-transform="left-6 down-5"></i>
+          </div>
+          <div class="col-sm-11">
+            <h4>Premium Materials</h4>
+            <p>Our saxophones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+          </div>
+          <div class="col-sm-1">
+            <i class="fas fa-truck fa-3x" data-fa-transform="left-10 down-5"></i>
+          </div>
+          <div class="col-sm-11">
+            <h4>Fast Shipping</h4>
+            <p>We make sure you receive your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+          </div>
+          <div class="col-sm-1">
+            <i class="fas fa-battery-full fa-3x" data-fa-transform="left-10 down-5"></i>
+          </div>
+          <div class="col-sm-11">
+            <h4>Quality Assurance</h4>
+            <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+          </div>
+        </div>
+      </div>
+      <div id="how-it-works">
+          <iframe id="video" src="https://www.youtube.com/embed/kxopViU98Xo" width="620" height="315" align="center" frameBorder="0"></iframe>
+      </div>
+      <div id="pricing">
+        <div class="flex-container">
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-header">
+                TENOR SAX
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">$600</h5>
+                <p class="card-text">Lorem ipsum. Lorem ipsum. Lorem ipsum dolor. Lorem ipsum. Lorem ipsum.</p>
+                <a href="#" class="btn btn-primary">Select</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-header">
+                BARITONE SAX
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">$900</h5>
+                <p class="card-text">Lorem ipsum. Lorem ipsum. Lorem ipsum dolor. Lorem ipsum. Lorem ipsum.</p>
+                <a href="#" class="btn btn-primary">Select</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-header">
+                CONTRABASS SAX
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">$1400</h5>
+                <p class="card-text">Lorem ipsum. Lorem ipsum. Lorem ipsum dolor. Lorem ipsum. Lorem ipsum.</p>
+                <a href="#" class="btn btn-primary">Select</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <ul id="footer" class="nav justify-content-end">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Privacy</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Terms</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+    </ul>
+    <p>Copyright 2018, Epic Saxophones</p>
+  </footer>
+</body>
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</html>

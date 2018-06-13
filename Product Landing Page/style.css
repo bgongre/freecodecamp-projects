@@ -1,0 +1,129 @@
+body {
+  background-color: #f1eaf2 !important;
+}
+
+.navbar {
+  background-color: #f1eaf2 !important;
+}
+
+.navbar a {
+  color: #000 !important;
+  font-size: 20px;
+}
+
+#header-img {
+  padding-left: 50px;
+}
+
+.intro {
+  text-align: center;
+  padding-top: 90px;
+}
+
+.intro h4 {
+  padding-bottom: 10px;
+}
+
+.intro input{
+  width: 300px;
+}
+
+.intro-button {
+  padding-top: 15px;
+}
+
+#submit {
+  font-weight: bold;
+  width: 120px;
+  border: 0px solid transparent !important;
+  outline: none !important;
+  color: #000 !important;
+  background-color: #fff10f !important;
+}
+
+#features {
+  padding-top: 40px;
+}
+
+svg {
+  color: #ff9400 !important;
+}
+
+#how-it-works {
+  text-align: center;
+  padding-bottom: 80px;
+  padding-top: 80px;
+}
+
+.materials {
+  padding-top: 50px;
+}
+
+#pricing {
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+#pricing .btn {
+  background-color: #fff10f !important;
+  color: #000 !important;
+  border: 0px solid transparent !important;
+}
+
+.card {
+  border: 1px solid #000 !important;
+}
+
+.card-header {
+  background-color: #dddddd !important;
+}
+
+footer {
+  text-align: right;
+  background-color: #dddddd;
+  overflow: hidden;
+}
+
+footer ul{
+  list-style-type: none;
+}
+
+footer ul a, footer ul a:hover {
+  color: #000;
+}
+
+footer p {
+  font-size: 13px;
+  padding-right: 10px;
+  color: #606060;
+}
+
+.nav-link {
+  padding-top: 15px !important;
+  padding-bottom: 2px !important;
+}
+
+.flex-container {
+  display: flex;
+  flex-grow: 4;
+}
+
+[class*="col-"] {
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
